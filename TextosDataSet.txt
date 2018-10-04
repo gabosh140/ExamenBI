@@ -1,0 +1,11 @@
+para procesos de negocio
+sacar las dimensiones: whant where how who when
+Dimension Degenerada: RUC, nro Factura cosas que no sean entendibles
+Junk Dimension: si hay grado de satisfaccion, grado de compromiso, calificacion, activo in activo se junta todo en uno solo
+medida: unidad que proporciona algun valor
+Metrica: numero, conjunto de medidas cuyo resultado es un valor numerico
+granularidad: es el analisis preciso de lo que se requiere mostrar en cada registro de la tabla de hechos
+DataMard: Repositorios de datos de un area del negocio especifica
+ETL: Proceso de extracion de info de las fuentes de datos, transformacion y carga a un nuevo repositorio comun
+
+Ciclo de vida de Kimball: extraccion de data, Creacion de los DM creacion, Creacion del Data WareHouse, Creacione de los archivos OLAP, presentacion en dashboards
